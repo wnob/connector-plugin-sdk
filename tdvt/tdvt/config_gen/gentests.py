@@ -50,6 +50,16 @@ def get_customized_table_name(attributes, base_table):
     if 'tablePrefix' in attributes:
         table_prefix = attributes['tablePrefix']
 
+    table_name = get_customized_table_name_without_affixes(attributes, base_table)
+
+    if 'tablenamePrefix' in attributes:
+        table_name = attributes['tablenamePrefix'] + table_name
+    if 'tablenamePostfix' in attributes:
+        table_name += attributes['tablenamePostfix']
+
+    return table_prefix + '[' + table_name + ']'
+
+def get_customized_table_name_without_affixes(attributes, base_table):
     table_name = attributes['tablename']
 
     t = Template(table_name)
@@ -66,15 +76,10 @@ def get_customized_table_name(attributes, base_table):
     elif 'staplesnameLower' in attributes and 'staples' in table_name.lower():
         table_name = table_name.lower()
 
-    if 'tablenamePrefix' in attributes:
-        table_name = attributes['tablenamePrefix'] + table_name
-    if 'tablenamePostfix' in attributes:
-        table_name += attributes['tablenamePostfix']
-
-    return table_prefix + '[' + table_name + ']'
+    return table_name
 
 
-def get_new_field_name(field, attrs):
+def get_new_field_name(field, attrs, table_name):
     new_field = field
     if check_logical_config_boolean_attr_value(attrs, 'bool_underscore'):
         m = re.search('\[(bool[0-9])\]', new_field, flags=re.IGNORECASE)
@@ -100,14 +105,18 @@ def get_new_field_name(field, attrs):
         m = re.search('\[(.*)\]', new_field, flags=re.IGNORECASE)
         if m:
             new_field = '[' + m.group(1) + attrs['fieldnamePostfix'] + ']'
+    if check_logical_config_boolean_attr_value(attrs, 'fieldname_tablePrefix'):
+        m = re.search('\[(.*)\]', new_field, flags=re.IGNORECASE)
+        if m:
+            new_field = '[' + table_name + '.' + m.group(1) + ']'
 
     return new_field
 
 
-def get_field_name_map(fields, attrs):
+def get_field_name_map(fields, attrs, table_name):
     m = {}
     for f in fields:
-        m[f] = get_new_field_name(f, attrs)
+        m[f] = get_new_field_name(f, attrs, table_name)
     return m
 
 
@@ -129,7 +138,7 @@ def get_modified_line(line, attrs, fields, field_name_map):
     new_line = new_line.replace('$Staples$', staples_table_name)
     return new_line
 
-def process_test_file(filename, ds_registry, output_dir, col_names: List[List[str]]):
+def process_test_file(filename, ds_registry, output_dir, calcs_fields, staples_fields):
     if debug:
         print("Processing " + filename)
 
@@ -146,15 +155,15 @@ def process_test_file(filename, ds_registry, output_dir, col_names: List[List[st
     if debug:
         print("Test " + test_name)
 
-    fields = []
-    for table in col_names:
-        fields += table
-
     ds_file_map = {}
     for ds in get_logical_config_templates(ds_registry):
         setup_file = open(os.path.join(output_dir, 'setup.' + test_name + '.' + ds + '.xml'), 'w', encoding='utf-8')
-        field_name_map = get_field_name_map(fields, get_logical_config_template(ds_registry, ds))
+        attrs = get_logical_config_template(ds_registry, ds)
+        field_name_map = get_field_name_map(calcs_fields, attrs, get_customized_table_name_without_affixes(attrs, 'Calcs'))
+        field_name_map.update(get_field_name_map(staples_fields, attrs, get_customized_table_name_without_affixes(attrs, 'Staples')))
         ds_file_map[ds] = (setup_file, field_name_map)
+
+    fields = staples_fields + calcs_fields
 
     # Go through all the configurations in templates.py and generate logical configs for them.
     for line in input_file:
@@ -202,7 +211,7 @@ def list_configs(ds_registry, target_config_name=None):
         if target_config_name and config_name != target_config_name:
             continue
         cfg_template = get_logical_config_template(ds_registry, config_name)
-        field_name_map = get_field_name_map(fields, cfg_template)
+        field_name_map = get_field_name_map(fields, cfg_template, 'Table Name')
         configs += get_config_text(config_name, cfg_template, fields, field_name_map)
     return configs
 
@@ -226,8 +235,6 @@ def generate_logical_files(input_dir, output_dir, ds_registry, force=False):
     base_output_dir = output_dir
     create_dir(base_output_dir)
 
-    fields = [CALCS_FIELDS, STAPLES_FIELDS]
-
     # Go through input and top level subdirs. Create those in the output and then process the files.
     for root, dirs, files in os.walk(input_dir):
         for name in dirs:
@@ -240,4 +247,7 @@ def generate_logical_files(input_dir, output_dir, ds_registry, force=False):
                 clean_create_dir(output_dir)
                 for input_root, input_dirs, input_files in os.walk(input_dir):
                     for input_filename in input_files:
-                        process_test_file(os.path.join(input_root, input_filename), ds_registry, output_dir, fields)
+                        process_test_file(
+                            os.path.join(input_root, input_filename),
+                            ds_registry, output_dir,
+                            CALCS_FIELDS, STAPLES_FIELDS)

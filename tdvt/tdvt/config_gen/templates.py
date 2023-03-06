@@ -147,6 +147,14 @@ template_attributes = {
                      'tablename' : '$dsName',
                      'tablePrefix' : '[TestV1].'
                       },
+    #testv1.calcs, and prefix column names with the table name
+    'looker' : {
+                     'tablename' : '$dsName',
+                     'tablePrefix' : '[testv1].',
+                     'tablenameLower' : True,
+                     'fieldnameLower_underscore' : True,
+                     'fieldname_tablePrefix': True,
+                      },
     #testv1.Calcs
     'prefix_bool_lower' : { 
                      'tablename' : '$dsName',
