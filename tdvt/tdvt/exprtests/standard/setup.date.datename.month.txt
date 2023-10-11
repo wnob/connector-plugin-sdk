@@ -1,4 +1,4 @@
-DATENAME('month', [date2])
+DATENAME('month', [calcs.date2])
 
-DATENAME('month', [datetime0])
+DATENAME('month', [calcs.datetime0])
 

@@ -1,16 +1,16 @@
 //From the if_calcs datasource.
-iif([bool0],[date0],[date1]) 
-iif([bool0],[str2],[str3],[str0]) 
-iif([bool0],[num0],[num1],[num2]) 
-iif([bool0],[date0],[date1],[date2]) 
-iif([bool0],[num0],[num1]) 
-iif([bool0],[bool1],[bool2]) 
-isnull([bool0]) 
-iif([bool0],[str2],[str3]) 
+iif([calcs.bool0],[calcs.date0],[calcs.date1]) 
+iif([calcs.bool0],[calcs.str2],[calcs.str3],[calcs.str0]) 
+iif([calcs.bool0],[calcs.num0],[calcs.num1],[calcs.num2]) 
+iif([calcs.bool0],[calcs.date0],[calcs.date1],[calcs.date2]) 
+iif([calcs.bool0],[calcs.num0],[calcs.num1]) 
+iif([calcs.bool0],[calcs.bool1],[calcs.bool2]) 
+isnull([calcs.bool0]) 
+iif([calcs.bool0],[calcs.str2],[calcs.str3]) 
 
 //From ifcase_calcs.
- (if [bool0] then int([bool1]) else int([bool2]) end) == int(true)
- if [bool0] then [num0] else [num1] end
- if [bool0] then [date0] else [date1] end
- if [bool0] then [str2] else [str3] end
+ (if [calcs.bool0] then int([calcs.bool1]) else int([calcs.bool2]) end) == int(true)
+ if [calcs.bool0] then [calcs.num0] else [calcs.num1] end
+ if [calcs.bool0] then [calcs.date0] else [calcs.date1] end
+ if [calcs.bool0] then [calcs.str2] else [calcs.str3] end
 

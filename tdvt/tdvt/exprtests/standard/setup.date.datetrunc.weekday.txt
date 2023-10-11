@@ -1,2 +1,2 @@
-DATETRUNC('weekday', [date2])
-DATETRUNC('weekday', [datetime0])
+DATETRUNC('weekday', [calcs.date2])
+DATETRUNC('weekday', [calcs.datetime0])

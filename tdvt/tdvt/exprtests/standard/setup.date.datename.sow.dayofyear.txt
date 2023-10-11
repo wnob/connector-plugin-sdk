@@ -1,6 +1,6 @@
-DATENAME('dayofyear', [date2], 'monday')
-DATENAME('dayofyear', [date2], 'sunday')
+DATENAME('dayofyear', [calcs.date2], 'monday')
+DATENAME('dayofyear', [calcs.date2], 'sunday')
 
-DATENAME('dayofyear', [datetime0], 'monday')
-DATENAME('dayofyear', [datetime0], 'sunday')
+DATENAME('dayofyear', [calcs.datetime0], 'monday')
+DATENAME('dayofyear', [calcs.datetime0], 'sunday')
 

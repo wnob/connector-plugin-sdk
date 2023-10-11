@@ -1,2 +1,2 @@
-FIND([str1], '')
-FIND([str2], '')
+FIND([calcs.str1], '')
+FIND([calcs.str2], '')

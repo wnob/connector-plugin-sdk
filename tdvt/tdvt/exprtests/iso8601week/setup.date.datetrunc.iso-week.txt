@@ -29,4 +29,4 @@ DATETRUNC('iso-week', #2018-01-01#) // Monday, 2018-W01
 DATETRUNC('iso-week', #2018-12-29#) // Sunday, 2018-W52
 
 // Test without literal to test non-empty groupby clause
-DATETRUNC('iso-week', [date2])
+DATETRUNC('iso-week', [calcs.date2])

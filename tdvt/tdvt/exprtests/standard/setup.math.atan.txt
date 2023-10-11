@@ -1,2 +1,2 @@
-ATAN([int2])
-atan([num0])
+ATAN([calcs.int2])
+atan([calcs.num0])

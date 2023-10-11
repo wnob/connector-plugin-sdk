@@ -1,1 +1,1 @@
-STR(STR([str2]))
+STR(STR([calcs.str2]))

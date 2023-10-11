@@ -1,2 +1,2 @@
-DATEPART('year', [date2])
-DATEPART('year', [datetime0])
+DATEPART('year', [calcs.date2])
+DATEPART('year', [calcs.datetime0])

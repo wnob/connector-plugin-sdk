@@ -1,2 +1,2 @@
-DATE(STR([date0]))
-DATE(STR([date2]))
+DATE(STR([calcs.date0]))
+DATE(STR([calcs.date2]))

@@ -1,1 +1,1 @@
-DATEPART('year',DATEADD('day',-DATEPART('weekday',[date0])+1,[date0]))
+DATEPART('year',DATEADD('day',-DATEPART('weekday',[calcs.date0])+1,[calcs.date0]))

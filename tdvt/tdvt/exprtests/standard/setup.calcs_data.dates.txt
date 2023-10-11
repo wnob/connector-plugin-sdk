@@ -1,7 +1,7 @@
 //Test the data in the table.
-[date0]
-[date1]
-[date2]
-[date3]
-[datetime0]
-[datetime1]
+[calcs.date0]
+[calcs.date1]
+[calcs.date2]
+[calcs.date3]
+[calcs.datetime0]
+[calcs.datetime1]

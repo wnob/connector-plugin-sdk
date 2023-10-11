@@ -1,2 +1,2 @@
-'      ' + [str2] + '      '
+'      ' + [calcs.str2] + '      '
 'CONST'

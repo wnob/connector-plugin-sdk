@@ -1,2 +1,2 @@
-DATEPART('minute', [datetime0])
+DATEPART('minute', [calcs.datetime0])
 

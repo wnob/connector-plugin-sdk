@@ -1,4 +1,4 @@
-DATENAME('week', [date2])
+DATENAME('week', [calcs.date2])
 
-DATENAME('week', [datetime0])
+DATENAME('week', [calcs.datetime0])
 

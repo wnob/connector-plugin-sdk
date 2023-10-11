@@ -1,4 +1,4 @@
-DATEADD('week', 1, [date2])
+DATEADD('week', 1, [calcs.date2])
 
-DATEADD('week', 1, [datetime0])
+DATEADD('week', 1, [calcs.datetime0])
 

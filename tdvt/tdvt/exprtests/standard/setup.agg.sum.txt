@@ -1,2 +1,2 @@
-SUM([int0])
-SUM([num4])
+SUM([calcs.int0])
+SUM([calcs.num4])

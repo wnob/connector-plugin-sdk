@@ -1,2 +1,2 @@
-SIN([int2])
-sin([num0])
+SIN([calcs.int2])
+sin([calcs.num0])

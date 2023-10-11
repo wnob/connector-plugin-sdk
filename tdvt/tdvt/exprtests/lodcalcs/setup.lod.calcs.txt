@@ -1,7 +1,7 @@
-{fixed [str1] : SUM([num1])}
-{exclude [str1] : SUM([num1])}
-{include [str1] : SUM([num1])}
-SUM([num1]) / AVG({fixed [str1] : SUM([num1])})
-{fixed [str1] : AVG({include [str2] : SUM([num1])})}
+{fixed [calcs.str1] : SUM([calcs.num1])}
+{exclude [calcs.str1] : SUM([calcs.num1])}
+{include [calcs.str1] : SUM([calcs.num1])}
+SUM([calcs.num1]) / AVG({fixed [calcs.str1] : SUM([calcs.num1])})
+{fixed [calcs.str1] : AVG({include [calcs.str2] : SUM([calcs.num1])})}
 
 

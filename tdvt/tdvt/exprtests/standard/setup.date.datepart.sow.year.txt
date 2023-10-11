@@ -1,4 +1,4 @@
-DATEPART('year', [date2], 'monday')
-DATEPART('year', [date2], 'sunday')
-DATEPART('year', [datetime0], 'monday')
-DATEPART('year', [datetime0], 'sunday')
+DATEPART('year', [calcs.date2], 'monday')
+DATEPART('year', [calcs.date2], 'sunday')
+DATEPART('year', [calcs.datetime0], 'monday')
+DATEPART('year', [calcs.datetime0], 'sunday')

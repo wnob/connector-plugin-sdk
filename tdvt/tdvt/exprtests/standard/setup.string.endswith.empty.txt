@@ -1,2 +1,2 @@
-ENDSWITH([str2], "")
-ENDSWITH([str1],'')
+ENDSWITH([calcs.str2], "")
+ENDSWITH([calcs.str1],'')

@@ -12,4 +12,4 @@ DATEDIFF('iso-year', #2014-12-28#, #2015-12-28#) // 1
 DATEDIFF('iso-year', #2015-12-28#, #2014-12-28#) // -1
 
 // Test without literal to test non-empty groupby clause
-DATEDIFF('iso-year', [date2], [date2]) // 0
+DATEDIFF('iso-year', [calcs.date2], [calcs.date2]) // 0

@@ -1,4 +1,4 @@
-DATEDIFF('dayofyear', [date3], [date2])
+DATEDIFF('dayofyear', [calcs.date3], [calcs.date2])
 
-DATEDIFF('dayofyear', DATETIME([date2]), [datetime0])
+DATEDIFF('dayofyear', DATETIME([calcs.date2]), [calcs.datetime0])
 

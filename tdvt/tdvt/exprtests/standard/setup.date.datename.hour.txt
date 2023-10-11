@@ -1,1 +1,1 @@
-DATENAME('hour', [datetime0])
+DATENAME('hour', [calcs.datetime0])

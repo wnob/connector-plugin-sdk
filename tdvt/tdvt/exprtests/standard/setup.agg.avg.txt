@@ -1,2 +1,2 @@
-AVG([int0])
-AVG([num4])
+AVG([calcs.int0])
+AVG([calcs.num4])

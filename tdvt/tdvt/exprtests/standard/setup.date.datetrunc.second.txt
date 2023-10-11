@@ -1,2 +1,2 @@
-DATETRUNC('second', [datetime0])
+DATETRUNC('second', [calcs.datetime0])
 

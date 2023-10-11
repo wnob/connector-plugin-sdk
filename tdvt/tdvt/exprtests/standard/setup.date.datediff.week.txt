@@ -1,4 +1,4 @@
-DATEDIFF('week', [date3], [date2])
+DATEDIFF('week', [calcs.date3], [calcs.date2])
 
-DATEDIFF('week', DATETIME([date2]), [datetime0])
+DATEDIFF('week', DATETIME([calcs.date2]), [calcs.datetime0])
 

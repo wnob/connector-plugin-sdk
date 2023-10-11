@@ -1,2 +1,2 @@
-DATETRUNC('hour', [datetime0])
+DATETRUNC('hour', [calcs.datetime0])
 

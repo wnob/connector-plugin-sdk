@@ -1,2 +1,2 @@
-DATENAME('minute', [datetime0])
+DATENAME('minute', [calcs.datetime0])
 

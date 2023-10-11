@@ -1,4 +1,4 @@
-DATETRUNC('month', [date2])
+DATETRUNC('month', [calcs.date2])
 
-DATETRUNC('month', [datetime0])
+DATETRUNC('month', [calcs.datetime0])
 

@@ -1,2 +1,2 @@
-STDEV([num4])
-STDEVP([num4])
+STDEV([calcs.num4])
+STDEVP([calcs.num4])

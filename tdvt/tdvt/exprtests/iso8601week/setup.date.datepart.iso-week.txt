@@ -29,4 +29,4 @@ DATEPART('iso-week', #2018-01-01#) // Monday, 2018-W01
 DATEPART('iso-week', #2018-12-29#) // Sunday, 2018-W52
 
 // Test without literal to test non-empty groupby clause
-DATEPART('iso-week', [date2])
+DATEPART('iso-week', [calcs.date2])

@@ -1,2 +1,2 @@
-LOWER([str2])
-lower([str1])
+LOWER([calcs.str2])
+lower([calcs.str1])

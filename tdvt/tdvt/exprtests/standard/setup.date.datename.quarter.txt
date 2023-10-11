@@ -1,4 +1,4 @@
-DATENAME('quarter', [date2])
+DATENAME('quarter', [calcs.date2])
 
-DATENAME('quarter', [datetime0])
+DATENAME('quarter', [calcs.datetime0])
 

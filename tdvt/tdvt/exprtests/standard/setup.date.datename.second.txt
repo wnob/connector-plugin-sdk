@@ -1,1 +1,1 @@
-DATENAME('second', [datetime0])
+DATENAME('second', [calcs.datetime0])

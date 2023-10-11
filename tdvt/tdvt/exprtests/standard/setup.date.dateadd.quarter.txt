@@ -1,4 +1,4 @@
-DATEADD('quarter', 1, [date2])
+DATEADD('quarter', 1, [calcs.date2])
 
-DATEADD('quarter', 1, [datetime0])
+DATEADD('quarter', 1, [calcs.datetime0])
 

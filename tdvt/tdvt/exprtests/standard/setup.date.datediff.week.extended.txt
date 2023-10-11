@@ -1,2 +1,2 @@
-DATEDIFF('week', [date2], #2050-01-01#)
+DATEDIFF('week', [calcs.date2], #2050-01-01#)
 

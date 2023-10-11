@@ -1,6 +1,6 @@
-DATEPART('quarter', [date2], 'monday')
-DATEPART('quarter', [date2], 'sunday')
+DATEPART('quarter', [calcs.date2], 'monday')
+DATEPART('quarter', [calcs.date2], 'sunday')
 
-DATEPART('quarter', [datetime0], 'monday')
-DATEPART('quarter', [datetime0], 'sunday')
+DATEPART('quarter', [calcs.datetime0], 'monday')
+DATEPART('quarter', [calcs.datetime0], 'sunday')
 

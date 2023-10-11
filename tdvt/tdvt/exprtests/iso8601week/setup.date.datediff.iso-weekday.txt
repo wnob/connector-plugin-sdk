@@ -12,7 +12,7 @@ DATEDIFF('iso-weekday', #2014-01-07#, #2013-12-30#) // -8
 DATEDIFF('iso-weekday', #2014-12-28#, #2015-12-28#) // 365
 
 // Test without literal to test non-empty groupby clause
-DATEDIFF('iso-weekday', [date2], [date2])
+DATEDIFF('iso-weekday', [calcs.date2], [calcs.date2])
 
 // Same day
 DATEDIFF('iso-weekday', DATETIME(#2014-12-29 00:00:00#), DATETIME(#2014-12-29 00:00:00#))

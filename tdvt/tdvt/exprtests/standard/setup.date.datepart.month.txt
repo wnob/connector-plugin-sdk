@@ -1,4 +1,4 @@
-DATEPART('month', [date2])
+DATEPART('month', [calcs.date2])
 
-DATEPART('month', [datetime0])
+DATEPART('month', [calcs.datetime0])
 

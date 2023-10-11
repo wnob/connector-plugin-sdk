@@ -1,1 +1,1 @@
-POWER([int2], 2)
+POWER([calcs.int2], 2)

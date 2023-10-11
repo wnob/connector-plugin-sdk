@@ -1,4 +1,4 @@
-DATEDIFF('month', [date3], [date2])
+DATEDIFF('month', [calcs.date3], [calcs.date2])
 
-DATEDIFF('month', DATETIME([date2]), [datetime0])
+DATEDIFF('month', DATETIME([calcs.date2]), [calcs.datetime0])
 

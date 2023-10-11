@@ -1,4 +1,4 @@
-DATEPART('day', [date2])
+DATEPART('day', [calcs.date2])
 
-DATEPART('day', [datetime0])
+DATEPART('day', [calcs.datetime0])
 

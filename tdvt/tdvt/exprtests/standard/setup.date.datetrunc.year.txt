@@ -1,2 +1,2 @@
-DATETRUNC('year', [date2])
-DATETRUNC('year', [datetime0])
+DATETRUNC('year', [calcs.date2])
+DATETRUNC('year', [calcs.datetime0])

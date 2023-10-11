@@ -1,1 +1,1 @@
-DATEPART('second', [datetime0])
+DATEPART('second', [calcs.datetime0])

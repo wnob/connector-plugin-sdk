@@ -1,6 +1,6 @@
-DATETRUNC('quarter', [date2], 'monday')
-DATETRUNC('quarter', [date2], 'sunday')
+DATETRUNC('quarter', [calcs.date2], 'monday')
+DATETRUNC('quarter', [calcs.date2], 'sunday')
 
-DATETRUNC('quarter', [datetime0], 'monday')
-DATETRUNC('quarter', [datetime0], 'sunday')
+DATETRUNC('quarter', [calcs.datetime0], 'monday')
+DATETRUNC('quarter', [calcs.datetime0], 'sunday')
 

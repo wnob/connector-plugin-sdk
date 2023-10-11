@@ -1,2 +1,2 @@
-RADIANS([int2])
-radians([num0])
+RADIANS([calcs.int2])
+radians([calcs.num0])

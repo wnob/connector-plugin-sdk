@@ -1,2 +1,2 @@
-REGEXP_MATCH([str0], 'OFFICE')
-REGEXP_MATCH([str0], 'Z')
+REGEXP_MATCH([calcs.str0], 'OFFICE')
+REGEXP_MATCH([calcs.str0], 'Z')

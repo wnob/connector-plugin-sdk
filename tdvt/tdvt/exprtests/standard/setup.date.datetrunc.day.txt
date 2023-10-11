@@ -1,4 +1,4 @@
-DATETRUNC('day', [date2])
+DATETRUNC('day', [calcs.date2])
 
-DATETRUNC('day', [datetime0])
+DATETRUNC('day', [calcs.datetime0])
 

@@ -15,4 +15,4 @@ DATEDIFF('iso-quarter', #2016-01-03#, #2017-01-02#) // 5
 DATEDIFF('iso-quarter', #2014-12-28#, #2016-01-04#) // 5
 
 // Test without literal to test non-empty groupby clause
-DATEDIFF('iso-quarter', [date2], [date2])
+DATEDIFF('iso-quarter', [calcs.date2], [calcs.date2])

@@ -1,2 +1,2 @@
-FIND([str1], Null)
-FIND([str2], Null)
+FIND([calcs.str1], Null)
+FIND([calcs.str2], Null)

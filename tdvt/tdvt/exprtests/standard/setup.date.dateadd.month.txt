@@ -1,4 +1,4 @@
-DATEADD('month', 1, [date2])
+DATEADD('month', 1, [calcs.date2])
 
-DATEADD('month', 1, [datetime0])
+DATEADD('month', 1, [calcs.datetime0])
 

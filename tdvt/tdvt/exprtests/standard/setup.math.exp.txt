@@ -1,2 +1,2 @@
-exp(0.1*[num0])
-EXP([int2])
+exp(0.1*[calcs.num0])
+EXP([calcs.int2])

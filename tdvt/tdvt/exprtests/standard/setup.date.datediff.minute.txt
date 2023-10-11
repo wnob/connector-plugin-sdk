@@ -1,2 +1,2 @@
-DATEDIFF('minute', DATETIME([date2]), [datetime0])
+DATEDIFF('minute', DATETIME([calcs.date2]), [calcs.datetime0])
 

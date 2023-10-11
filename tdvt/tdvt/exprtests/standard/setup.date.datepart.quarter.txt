@@ -1,4 +1,4 @@
-DATEPART('quarter', [date2])
+DATEPART('quarter', [calcs.date2])
 
-DATEPART('quarter', [datetime0])
+DATEPART('quarter', [calcs.datetime0])
 

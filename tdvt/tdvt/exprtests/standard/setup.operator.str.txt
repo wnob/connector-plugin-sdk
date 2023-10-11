@@ -1,8 +1,8 @@
-[str2] == iif([num3]>0,[str2],[str3])
-[str2] >= iif([num3]>0,lower([str0]),[str3])
-[str2] > iif([num3]>0,[str0],[str3])
-[str2] <= iif([num3]>0,lower([str0]),[str3])
-[str2] < iif([num3]>0,lower([str0]),[str3])
-[str2] != iif([num3]>0,[str2],[str3])
-[str2] + [str3]
+[calcs.str2] == iif([calcs.num3]>0,[calcs.str2],[calcs.str3])
+[calcs.str2] >= iif([calcs.num3]>0,lower([calcs.str0]),[calcs.str3])
+[calcs.str2] > iif([calcs.num3]>0,[calcs.str0],[calcs.str3])
+[calcs.str2] <= iif([calcs.num3]>0,lower([calcs.str0]),[calcs.str3])
+[calcs.str2] < iif([calcs.num3]>0,lower([calcs.str0]),[calcs.str3])
+[calcs.str2] != iif([calcs.num3]>0,[calcs.str2],[calcs.str3])
+[calcs.str2] + [calcs.str3]
 "Pat O'Hanrahan & <Matthew Eldridge]'"

@@ -1,2 +1,2 @@
-TRIM(STR([datetime0]))
+TRIM(STR([calcs.datetime0]))
 

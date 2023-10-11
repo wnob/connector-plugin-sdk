@@ -1,2 +1,2 @@
-ENDSWITH([str2], Null)
-ENDSWITH([str1], Null)
+ENDSWITH([calcs.str2], Null)
+ENDSWITH([calcs.str1], Null)

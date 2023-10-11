@@ -1,2 +1,2 @@
-REGEXP_REPLACE([str0], 'OFFICE', 'ZZZ')
-REGEXP_REPLACE([str0], 'Z', 'o')
+REGEXP_REPLACE([calcs.str0], 'OFFICE', 'ZZZ')
+REGEXP_REPLACE([calcs.str0], 'Z', 'o')

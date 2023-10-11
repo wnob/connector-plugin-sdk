@@ -1,4 +1,4 @@
-DATEADD('day', 1, [date2])
+DATEADD('day', 1, [calcs.date2])
 
-DATEADD('day', 1, [datetime0])
+DATEADD('day', 1, [calcs.datetime0])
 

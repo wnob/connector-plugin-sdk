@@ -1,18 +1,18 @@
-abs([num0])
-[num0]
-[num1]
--[num0]
-[num0] / [num1]
-[num0]=abs([num0])
-[num0]==abs([num0])
-[num0] >= [num1]
-[num0] > [num1]
-[num0] <= [num1]
-[num0] < [num1]
-[num0] - [num1]
-[num0] <> abs([num0])
-[num0] != abs([num0])
-[num0] + [num1]
-[num0] ^ [num1]
-[num0] * [num1]
+abs([calcs.num0])
+[calcs.num0]
+[calcs.num1]
+-[calcs.num0]
+[calcs.num0] / [calcs.num1]
+[calcs.num0]=abs([calcs.num0])
+[calcs.num0]==abs([calcs.num0])
+[calcs.num0] >= [calcs.num1]
+[calcs.num0] > [calcs.num1]
+[calcs.num0] <= [calcs.num1]
+[calcs.num0] < [calcs.num1]
+[calcs.num0] - [calcs.num1]
+[calcs.num0] <> abs([calcs.num0])
+[calcs.num0] != abs([calcs.num0])
+[calcs.num0] + [calcs.num1]
+[calcs.num0] ^ [calcs.num1]
+[calcs.num0] * [calcs.num1]
 

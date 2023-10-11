@@ -1,39 +1,39 @@
 DATEDIFF('day', NOW(), NOW())
 DATEDIFF('day', TODAY(), TODAY())
 
-[date2] + 1
-[date2] + 1.5
+[calcs.date2] + 1
+[calcs.date2] + 1.5
 
-[date2] - 1
-[date2] - 1.5
+[calcs.date2] - 1
+[calcs.date2] - 1.5
 
-[datetime0] - [datetime0]
-[datetime0] - 1
-[datetime0] + 1
-[datetime0] - 1.5
-[datetime0] + 1.5
+[calcs.datetime0] - [calcs.datetime0]
+[calcs.datetime0] - 1
+[calcs.datetime0] + 1
+[calcs.datetime0] - 1.5
+[calcs.datetime0] + 1.5
 
 
-[datetime0] = [datetime0]
-[datetime0] > [datetime0]
-[datetime0] >= [datetime0]
-[datetime0] < [datetime0]
-[datetime0] <= [datetime0]
-[datetime0] <> [datetime0]
+[calcs.datetime0] = [calcs.datetime0]
+[calcs.datetime0] > [calcs.datetime0]
+[calcs.datetime0] >= [calcs.datetime0]
+[calcs.datetime0] < [calcs.datetime0]
+[calcs.datetime0] <= [calcs.datetime0]
+[calcs.datetime0] <> [calcs.datetime0]
 
-[date2] = [datetime0]
-[date2] > [datetime0]
-[date2] >= [datetime0]
-[date2] < [datetime0]
-[date2] <= [datetime0]
-[date2] <> [datetime0]
+[calcs.date2] = [calcs.datetime0]
+[calcs.date2] > [calcs.datetime0]
+[calcs.date2] >= [calcs.datetime0]
+[calcs.date2] < [calcs.datetime0]
+[calcs.date2] <= [calcs.datetime0]
+[calcs.date2] <> [calcs.datetime0]
 
-[date2] =  [date2]
-[date2] >  [date2]
-[date2] >= [date2]
-[date2] <  [date2]
-[date2] <= [date2]
-[date2] <> [date2]
+[calcs.date2] =  [calcs.date2]
+[calcs.date2] >  [calcs.date2]
+[calcs.date2] >= [calcs.date2]
+[calcs.date2] <  [calcs.date2]
+[calcs.date2] <= [calcs.date2]
+[calcs.date2] <> [calcs.date2]
 
 //Daylight savings test.
 //These are problematic since Oracle doesn't like YYYY-MM-DD for example.

@@ -1,1 +1,1 @@
-mid([str2],([num0]+5)*.3,[num1])
+mid([calcs.str2],([calcs.num0]+5)*.3,[calcs.num1])

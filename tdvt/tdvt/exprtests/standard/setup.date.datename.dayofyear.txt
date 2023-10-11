@@ -1,4 +1,4 @@
-DATENAME('dayofyear', [date2])
+DATENAME('dayofyear', [calcs.date2])
 
-DATENAME('dayofyear', [datetime0])
+DATENAME('dayofyear', [calcs.datetime0])
 

@@ -1,3 +1,3 @@
 ASCII("a")
-ascii([str2])
-ascii([str1])
+ascii([calcs.str2])
+ascii([calcs.str1])

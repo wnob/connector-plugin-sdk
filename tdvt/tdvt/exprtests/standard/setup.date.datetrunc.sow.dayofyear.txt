@@ -1,6 +1,6 @@
-DATETRUNC('dayofyear', [date2], 'monday')
-DATETRUNC('dayofyear', [date2], 'sunday')
+DATETRUNC('dayofyear', [calcs.date2], 'monday')
+DATETRUNC('dayofyear', [calcs.date2], 'sunday')
 
-DATETRUNC('dayofyear', [datetime0], 'monday')
-DATETRUNC('dayofyear', [datetime0], 'sunday')
+DATETRUNC('dayofyear', [calcs.datetime0], 'monday')
+DATETRUNC('dayofyear', [calcs.datetime0], 'sunday')
 

@@ -1,3 +1,3 @@
-MIN([date2], [date3])
-MIN([date2])
-MIN([datetime0])
+MIN([calcs.date2], [calcs.date3])
+MIN([calcs.date2])
+MIN([calcs.datetime0])

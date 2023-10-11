@@ -1,2 +1,2 @@
-case [str0] when 'TECHNOLOGY' then '*Anonymous*'  else [str0] end
+case [calcs.str0] when 'TECHNOLOGY' then '*Anonymous*'  else [calcs.str0] end
 

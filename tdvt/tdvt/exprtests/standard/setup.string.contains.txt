@@ -1,2 +1,2 @@
-CONTAINS([str2], "e")
-CONTAINS([str1], "IND")
+CONTAINS([calcs.str2], "e")
+CONTAINS([calcs.str1], "IND")

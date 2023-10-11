@@ -1,2 +1,2 @@
-MAX([str1], [str2])
-MAX([str3], [str2])
+MAX([calcs.str1], [calcs.str2])
+MAX([calcs.str3], [calcs.str2])

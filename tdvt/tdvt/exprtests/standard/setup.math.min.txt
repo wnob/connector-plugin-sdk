@@ -1,2 +1,2 @@
-MIN([int0])
-MIN([int1], [int2])
+MIN([calcs.int0])
+MIN([calcs.int1], [calcs.int2])

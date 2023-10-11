@@ -1,5 +1,5 @@
-DATENAME('year', [date2], 'monday')
-DATENAME('year', [date2], 'sunday')
+DATENAME('year', [calcs.date2], 'monday')
+DATENAME('year', [calcs.date2], 'sunday')
 
-DATENAME('year', [datetime0], 'monday')
-DATENAME('year', [datetime0], 'sunday')
+DATENAME('year', [calcs.datetime0], 'monday')
+DATENAME('year', [calcs.datetime0], 'sunday')

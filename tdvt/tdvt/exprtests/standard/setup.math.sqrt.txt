@@ -1,2 +1,2 @@
-SQRT([int2])
-sqrt([num0])
+SQRT([calcs.int2])
+sqrt([calcs.num0])

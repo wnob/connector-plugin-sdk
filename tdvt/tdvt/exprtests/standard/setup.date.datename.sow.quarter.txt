@@ -1,6 +1,6 @@
-DATENAME('quarter', [date2], 'monday')
-DATENAME('quarter', [date2], 'sunday')
+DATENAME('quarter', [calcs.date2], 'monday')
+DATENAME('quarter', [calcs.date2], 'sunday')
 
-DATENAME('quarter', [datetime0], 'monday')
-DATENAME('quarter', [datetime0], 'sunday')
+DATENAME('quarter', [calcs.datetime0], 'monday')
+DATENAME('quarter', [calcs.datetime0], 'sunday')
 

@@ -1,1 +1,1 @@
-IFNULL(COUNTD([num2]), 0)
+IFNULL(COUNTD([calcs.num2]), 0)

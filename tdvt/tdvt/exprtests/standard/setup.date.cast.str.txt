@@ -1,2 +1,2 @@
-TRIM(STR([date2]))
+TRIM(STR([calcs.date2]))
 

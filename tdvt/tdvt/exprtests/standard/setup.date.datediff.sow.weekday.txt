@@ -1,6 +1,6 @@
-DATEDIFF('weekday', [date3], [date2], 'monday')
-DATEDIFF('weekday', [date3], [date2], 'sunday')
+DATEDIFF('weekday', [calcs.date3], [calcs.date2], 'monday')
+DATEDIFF('weekday', [calcs.date3], [calcs.date2], 'sunday')
 
-DATEDIFF('weekday', DATETIME([date2]), [datetime0], 'monday')
-DATEDIFF('weekday', DATETIME([date2]), [datetime0], 'sunday')
+DATEDIFF('weekday', DATETIME([calcs.date2]), [calcs.datetime0], 'monday')
+DATEDIFF('weekday', DATETIME([calcs.date2]), [calcs.datetime0], 'sunday')
 

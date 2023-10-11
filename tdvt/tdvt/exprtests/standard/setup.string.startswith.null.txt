@@ -1,2 +1,2 @@
-STARTSWITH([str2], Null)
-STARTSWITH([str1], Null)
+STARTSWITH([calcs.str2], Null)
+STARTSWITH([calcs.str1], Null)

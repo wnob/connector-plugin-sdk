@@ -1,2 +1,2 @@
-ENDSWITH([str1], "s")
-ENDSWITH([str2], "een")
+ENDSWITH([calcs.str1], "s")
+ENDSWITH([calcs.str2], "een")

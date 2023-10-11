@@ -1,1 +1,1 @@
-LEFT([str0],-2)
+LEFT([calcs.str0],-2)

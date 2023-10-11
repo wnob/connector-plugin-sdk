@@ -34,4 +34,4 @@ DATEPART('year', DATETRUNC('iso-year', #2018-01-01#))
 DATETRUNC('year', DATETRUNC('iso-year', #2018-01-01#))
 
 // Test without literal to test non-empty groupby clause
-DATETRUNC('iso-year', [date2])
+DATETRUNC('iso-year', [calcs.date2])

@@ -1,2 +1,2 @@
-INT([num4])
-int(str([num4])+str([int0]))
+INT([calcs.num4])
+int(str([calcs.num4])+str([calcs.int0]))

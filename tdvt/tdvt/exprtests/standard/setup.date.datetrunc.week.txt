@@ -1,4 +1,4 @@
-DATETRUNC('week', [date2])
+DATETRUNC('week', [calcs.date2])
 
-DATETRUNC('week', [datetime0])
+DATETRUNC('week', [calcs.datetime0])
 

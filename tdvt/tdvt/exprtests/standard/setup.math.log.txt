@@ -1,4 +1,4 @@
-LOG([int2])
-LOG([int2],2)
-log([num0])
-log([num0],2)
+LOG([calcs.int2])
+LOG([calcs.int2],2)
+log([calcs.num0])
+log([calcs.num0],2)

@@ -1,8 +1,8 @@
 REGEXP_EXTRACT('','office+\s+(\w+)')
 REGEXP_EXTRACT('office supplies','office+\s+(\w+)')
 REGEXP_EXTRACT('office supplies','')
-REGEXP_EXTRACT([key], "(key)") //"key"
-REGEXP_EXTRACT([str0], "(z)") //"Null"
+REGEXP_EXTRACT([calcs.key], "(key)") //"key"
+REGEXP_EXTRACT([calcs.str0], "(z)") //"Null"
 REGEXP_EXTRACT("toyota", "(o)") //"o"
 REGEXP_EXTRACT("00065484", "(0{2})") //"00"
 REGEXP_EXTRACT("aaaa", "(a{3})") //"aaa"
@@ -10,7 +10,7 @@ REGEXP_EXTRACT("abcdefghijklmnopqrstuvwxyz0123456789", "([a-z0-9])") //"a"
 REGEXP_EXTRACT("Abcd", "(^a)") //"Null"
 REGEXP_EXTRACT("Abcd", "(^A)") //"A"
 REGEXP_EXTRACT("abcd", "(a|b)") //"a"
-REGEXP_EXTRACT([str0], "(F{1,2})") //"FF"
+REGEXP_EXTRACT([calcs.str0], "(F{1,2})") //"FF"
 REGEXP_EXTRACT("orange brooklyn", "(o{1,2})") //"o"
 REGEXP_EXTRACT("abcde", "(e$)") //"e"
 REGEXP_EXTRACT("Cincinnati Outlaw Reds", "([a-zA-Z])") //"C"

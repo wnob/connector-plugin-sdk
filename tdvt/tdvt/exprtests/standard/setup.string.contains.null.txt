@@ -1,2 +1,2 @@
-CONTAINS([str1], Null)
-CONTAINS([str2], Null)
+CONTAINS([calcs.str1], Null)
+CONTAINS([calcs.str2], Null)

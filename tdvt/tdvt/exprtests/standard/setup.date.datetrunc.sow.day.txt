@@ -1,6 +1,6 @@
-DATETRUNC('day', [date2], 'monday')
-DATETRUNC('day', [date2], 'sunday')
+DATETRUNC('day', [calcs.date2], 'monday')
+DATETRUNC('day', [calcs.date2], 'sunday')
 
-DATETRUNC('day', [datetime0], 'monday')
-DATETRUNC('day', [datetime0], 'sunday')
+DATETRUNC('day', [calcs.datetime0], 'monday')
+DATETRUNC('day', [calcs.datetime0], 'sunday')
 

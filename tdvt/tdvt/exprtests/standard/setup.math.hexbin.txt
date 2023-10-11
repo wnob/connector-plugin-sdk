@@ -1,2 +1,2 @@
-HEXBINX([int2],2)
-HEXBINY([int2],2)
+HEXBINX([calcs.int2],2)
+HEXBINY([calcs.int2],2)

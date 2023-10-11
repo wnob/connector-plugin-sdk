@@ -1,2 +1,2 @@
-SQUARE([int2])
-square([num0])
+SQUARE([calcs.int2])
+square([calcs.num0])

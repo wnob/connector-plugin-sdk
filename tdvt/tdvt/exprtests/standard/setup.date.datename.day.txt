@@ -1,4 +1,4 @@
-DATENAME('day', [date2])
+DATENAME('day', [calcs.date2])
 
-DATENAME('day', [datetime0])
+DATENAME('day', [calcs.datetime0])
 

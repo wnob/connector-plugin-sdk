@@ -1,4 +1,4 @@
-STR([int1])
-STR([bool0])
-STR([num2])
-STR([str2])
+STR([calcs.int1])
+STR([calcs.bool0])
+STR([calcs.num2])
+STR([calcs.str2])

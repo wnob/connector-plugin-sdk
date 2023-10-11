@@ -1,1 +1,1 @@
-CONTAINS([str2], LEFT([str2], 0))
+CONTAINS([calcs.str2], LEFT([calcs.str2], 0))
