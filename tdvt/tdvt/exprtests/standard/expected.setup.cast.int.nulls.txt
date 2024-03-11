@@ -51,16 +51,16 @@
         <value>-14</value>
       </tuple>
       <tuple>
-        <value>3</value>
+        <value>4</value>
       </tuple>
       <tuple>
-        <value>6</value>
+        <value>7</value>
       </tuple>
       <tuple>
         <value>8</value>
       </tuple>
       <tuple>
-        <value>10</value>
+        <value>11</value>
       </tuple>
       <tuple>
         <value>19</value>
