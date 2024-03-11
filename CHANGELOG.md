@@ -1,4 +1,7 @@
 # Tableau Connector SDK Changelog
+## 2024-03-11
+### Changed
+- [b/328440720] Adjust expected results when casting STRING to INTEGER
 ## 2023-04-10
 ### Changed
 - Update `oauth_config.xsd` to include `configLabel` field and update `min-version-tableau` to be 2023.2 if present
