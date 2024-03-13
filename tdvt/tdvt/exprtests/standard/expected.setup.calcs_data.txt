@@ -5,9 +5,6 @@
         <column>[cast_calcs.postgres91].[TEMP(Test)(3428507074)(0)]</column>
       </schema>
       <tuple>
-        <value>%null%</value>
-      </tuple>
-      <tuple>
         <value>false</value>
       </tuple>
       <tuple>
@@ -20,9 +17,6 @@
       <schema>
         <column>[cast_calcs.postgres91].[TEMP(Test)(1935567978)(0)]</column>
       </schema>
-      <tuple>
-        <value>%null%</value>
-      </tuple>
       <tuple>
         <value>false</value>
       </tuple>
@@ -49,9 +43,6 @@
       <schema>
         <column>[cast_calcs.postgres91].[TEMP(Test)(1288552116)(0)]</column>
       </schema>
-      <tuple>
-        <value>%null%</value>
-      </tuple>
       <tuple>
         <value>false</value>
       </tuple>
